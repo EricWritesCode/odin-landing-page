@@ -21,6 +21,7 @@ body > * {
 
 /* Remove default margins */
 h1,
+h2,
 p {
   margin: 0px;
 }
@@ -139,6 +140,21 @@ button {
   font: 700 24px "Roboto";
   text-align: right;
   margin: 8px;
+}
+
+.action-call {
+  margin: 100px 10%;
+  padding: 36px 10%;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.action-call button {
+  border: 2px solid #e5e7eb;
+  flex-shrink: 0;
+  margin: 0;
 }
 
 .footer {
