@@ -9,6 +9,24 @@ html {
 body {
   font-family: 'Roboto', sans-serif, system-ui;
   color: #1f2937;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Gives all direct children horizontal padding */
+body > * {
+  padding: 0px 10%;
+}
+
+/* Remove link formatting */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  margin: 0px;
 }
 
 .header,
@@ -17,7 +35,24 @@ body {
   background-color: #1F2937;
   color: #e5e7eb;
   font-size: 18px;
+  display: flex;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
+
+.header {
+  justify-content: space-between;
+}
+
+.header ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
 
 .hero-text h1,
 .header h1 {
@@ -59,4 +94,8 @@ button {
 .big-quote {
   font: italic 300 36px 'Roboto';
   color: #1f2937;
+}
+
+.footer {
+  justify-content: center;
 }
