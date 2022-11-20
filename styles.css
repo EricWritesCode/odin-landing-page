@@ -1,11 +1,62 @@
-body {
-  font-family: 'Roboto', system-ui;
+html {
+  box-sizing: border-box;
 }
 
-.banner img {
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif, system-ui;
+  color: #1f2937;
+}
+
+.header,
+.hero,
+.footer {
+  background-color: #1F2937;
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero-text h1,
+.header h1 {
+  font: 900 48px 'Roboto';
+  color: #f9faf8;
+}
+
+.header h1 {
+  font: 700 24px 'Roboto';
+}
+
+.hero img {
   max-width: 400px;
+}
+
+button {
+  font-size: 18px;
+}
+
+.action-call,
+button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+}
+
+.info h1 {
+  font: 900 36px 'Roboto';
+  color: #1f2937;
 }
 
 .box img {
   max-width: 200px;
+}
+
+.quote-block {
+  background-color: #e5e7eb;
+}
+
+.big-quote {
+  font: italic 300 36px 'Roboto';
+  color: #1f2937;
 }
