@@ -126,11 +126,19 @@ button {
 
 .quote-block {
   background-color: #e5e7eb;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .big-quote {
   font: italic 300 36px "Roboto";
   color: #1f2937;
+}
+
+.big-quote-author {
+  font: 700 24px "Roboto";
+  text-align: right;
+  margin: 8px;
 }
 
 .footer {
