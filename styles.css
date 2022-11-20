@@ -1,7 +1,11 @@
 body {
-  
+  font-family: 'Roboto', system-ui;
 }
 
 .banner img {
   max-width: 400px;
+}
+
+.box img {
+  max-width: 200px;
 }
